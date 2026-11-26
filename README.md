@@ -8,9 +8,10 @@
 
 
 效果图：
-<img width="2360" height="122" alt="image" src="https://github.com/user-attachments/assets/04c61bc3-2abc-45f5-b28c-479608e4c899" />
 
-<img width="1052" height="93" alt="image" src="https://github.com/user-attachments/assets/b0d55068-619d-4a41-a623-f6577573f51f" />
+<img width="1220" height="136" alt="image" src="https://github.com/user-attachments/assets/595eab26-0f24-40d8-a647-f0c7313b09e6" />
+
+<img width="1055" height="58" alt="image" src="https://github.com/user-attachments/assets/a0ce3fd9-7418-46d0-a892-c9662d565004" />
 
 ## 致谢
 - [@Kito0615](https://github.com/Kito0615)：[如何在Rime-Squirrel中简单实现输入统计功能。](https://gist.github.com/Kito0615/b6ed63d9de37ddfa84a4bf8fa3372706)
