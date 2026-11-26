@@ -1,6 +1,5 @@
 # rime输入统计
 
-
 ## 介绍
 区分设备的输入统计，不包含敏感数据，输入sS查看。
 
@@ -8,6 +7,22 @@
 所有数据保存在配置目录下的 input_count.txt
 
 <img width="495" height="259" alt="image" src="https://github.com/user-attachments/assets/4392adba-ea31-49dc-baf3-23b44d6164b9" />
+
+## 使用方法
+
+在方案的补丁文件(如[雾凇拼音](https://github.com/iDvel/rime-ice)的`rime_ice.custom.yaml`)中写入
+```lua
+patch:
+  engine/translators/+:
+    - lua_translator@*input_count
+```
+
+**或者**在方案配置文件(如雾凇拼音的`rime_ice.schema.yaml`)中写入（**不推荐**）
+```lua
+engine:
+  translators:
+    - lua_translator@*input_count
+```
 
 ## 效果图：
 
